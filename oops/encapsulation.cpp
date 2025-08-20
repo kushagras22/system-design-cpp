@@ -85,6 +85,8 @@ int main() {
     mySportsCar->stopEngine(); 
     mySportsCar->setTyre("MRF");
     cout << mySportsCar->getTyre() << endl;
+    mySportsCar->setTyre("Michelin");
+    cout << mySportsCar->getTyre() << endl;
     
     // Arbitrary speed, that raises error due to being private. 
     // Can be changed using getter or setter if they exist.
